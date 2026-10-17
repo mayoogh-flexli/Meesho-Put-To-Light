@@ -1,0 +1,39 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "967774a7-121a-4518-b050-4743b1334b9b")
+	(paper "A4")
+	(title_block
+		(title "PTL-RAIL  TX nodes")
+		(date "2026-10-17")
+		(rev "A")
+		(company "Flexli Technologies")
+		(comment 1 "Meesho put-to-light, modular TX/RX rail")
+		(comment 2 "Design notes below come from the 16 Oct review; replace with circuitry")
+	)
+	(lib_symbols)
+	(text "- 5 nodes, bottom face, fire down into the bin below\n- Per node: 5 mm 940 nm IR LED from 5 V, R_LED footprint 100R-2k2 (start 180R)\n- AO3400A low side, 100R gate, 100k gate pull-down, 10R source sense\n- Gates driven from one RMT 38 kHz carrier routed by the GPIO matrix\n- LED returns to connector GND, not under the TSOP row\n- Node 1: TP gate, TP sense + GND"
+		(exclude_from_sim no)
+		(at 20 30 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "cc9146d4-618d-4dc8-af11-becfcfa861de")
+	)
+	(text "TX NODES - design intent"
+		(exclude_from_sim no)
+		(at 20 25 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6d5105d-d3f1-485d-9487-1b0603949a81")
+	)
+)

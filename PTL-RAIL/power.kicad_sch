@@ -1,0 +1,39 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ae479e71-431a-4f87-8a52-2f13add3f069")
+	(paper "A4")
+	(title_block
+		(title "PTL-RAIL  Power")
+		(date "2026-10-17")
+		(rev "A")
+		(company "Flexli Technologies")
+		(comment 1 "Meesho put-to-light, modular TX/RX rail")
+		(comment 2 "Design notes below come from the 16 Oct review; replace with circuitry")
+	)
+	(lib_symbols)
+	(text "POWER - design intent"
+		(exclude_from_sim no)
+		(at 20 25 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "18ab6bbf-01fa-43c0-ac3c-081b2fad5169")
+	)
+	(text "- 24 V entry from J1 / J2 / J3 bus net: polyfuse F1, reverse-polarity P-FET Q14, TVS D1 SMBJ28A\n- U8 60 V buck 24 V -> 5 V, >= 1 A (LMR36015 class). Check D1 clamp vs U8 abs max\n- U9 5 V -> 3V3 LDO, 1 A class (ESP32 Wi-Fi peaks)\n- 5 V rail feeds IR LED drive. 3V3 feeds ESP32, CAN VIO and TSOPs\n- VBUS sense: 100k / 10k divider to ESP32 ADC\n- Test points with adjacent GND: 5V, 3V3"
+		(exclude_from_sim no)
+		(at 20 30 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5afb3ed0-c8d5-4372-8b3b-96f2fd42aee3")
+	)
+)

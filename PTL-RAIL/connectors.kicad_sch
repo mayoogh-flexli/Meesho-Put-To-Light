@@ -1,0 +1,39 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f2f1fb69-185c-41a0-bb6a-c8a11d6dfabe")
+	(paper "A4")
+	(title_block
+		(title "PTL-RAIL  Connectors")
+		(date "2026-10-17")
+		(rev "A")
+		(company "Flexli Technologies")
+		(comment 1 "Meesho put-to-light, modular TX/RX rail")
+		(comment 2 "Design notes below come from the 16 Oct review; replace with circuitry")
+	)
+	(lib_symbols)
+	(text "CONNECTORS - design intent"
+		(exclude_from_sim no)
+		(at 20 25 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e4a709f-34d7-4295-9daa-7de010990f46")
+	)
+	(text "- J1 CAN + 24 V field, 4-way 3.5 mm pluggable: 1 +24V, 2 GND, 3 CANH, 4 CANL\n- J2 UP (top face) / J3 DOWN (bottom face), 2x8 shrouded 2.54 mm, 16-way IDC, straight through:\n  1 +24V  2 +24V  3 GND  4 GND  5 CANH  6 CANL  7 GND  8 GND\n  9 spare  10 GND  11-15 TSOP1-5  16 GND\n- J5 indicator (bottom face), 4-way JST-XH: 1 +24V, 2 R-, 3 G-, 4 B-\n- TPD4E05U06 ESD arrays at J2 and J3\n- Population: top rail J2 DNP, middle J1 DNP, bottom J3 / J5 DNP"
+		(exclude_from_sim no)
+		(at 20 30 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b7e60af5-3365-47e2-b84a-7f87d93399b8")
+	)
+)

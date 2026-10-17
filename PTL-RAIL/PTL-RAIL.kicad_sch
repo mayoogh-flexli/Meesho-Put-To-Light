@@ -1,0 +1,311 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f069ed8f-812c-4c88-b7da-e87f505ec63b")
+	(paper "A4")
+	(title_block
+		(title "PTL-RAIL")
+		(date "2026-10-17")
+		(rev "A")
+		(company "Flexli Technologies")
+		(comment 1 "Meesho put-to-light, modular TX/RX rail")
+		(comment 2 "Option B bin-owner wiring, CAN only")
+		(comment 3 "Ref: knowledge/claude/2026-10-16-modular-txrx-rail-pcb-review.md")
+	)
+	(lib_symbols)
+	(text "PTL-RAIL rev A  -  top level. Same PCB fits top, middle and bottom rail positions by population."
+		(exclude_from_sim no)
+		(at 25 35 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "55765c09-9336-46a6-b916-f457c0281de1")
+	)
+	(sheet
+		(at 195 50)
+		(size 65 40)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "04dccf8a-1e63-45ac-a4b7-eda4946e060d")
+		(property "Sheetname" "CAN"
+			(at 195 49.2888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 195 90.5888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195 110)
+		(size 65 40)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "44085b6a-af9f-4c5c-8e14-ee60b17eca28")
+		(property "Sheetname" "Connectors"
+			(at 195 109.2888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 195 150.5888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110 50)
+		(size 65 40)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "843560ab-5821-40bc-86d9-e72d8423fdb4")
+		(property "Sheetname" "ESP32"
+			(at 110 49.2888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32.kicad_sch"
+			(at 110 90.5888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25 110)
+		(size 65 40)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "9f7bb5b6-7e24-4ede-8cbb-4b02f9927357")
+		(property "Sheetname" "TX nodes"
+			(at 25 109.2888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tx_nodes.kicad_sch"
+			(at 25 150.5888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25 50)
+		(size 65 40)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bc5b124e-5bdd-45f5-93ec-a088e5db876b")
+		(property "Sheetname" "Power"
+			(at 25 49.2888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 25 90.5888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110 110)
+		(size 65 40)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d130fb06-67bd-4958-852c-9b33eac6278c")
+		(property "Sheetname" "RX nodes"
+			(at 110 109.2888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rx_nodes.kicad_sch"
+			(at 110 150.5888 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

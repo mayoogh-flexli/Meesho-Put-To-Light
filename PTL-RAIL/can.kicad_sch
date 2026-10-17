@@ -1,0 +1,39 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "fa997cb3-661a-4501-989f-a3ed12ffdade")
+	(paper "A4")
+	(title_block
+		(title "PTL-RAIL  CAN")
+		(date "2026-10-17")
+		(rev "A")
+		(company "Flexli Technologies")
+		(comment 1 "Meesho put-to-light, modular TX/RX rail")
+		(comment 2 "Design notes below come from the 16 Oct review; replace with circuitry")
+	)
+	(lib_symbols)
+	(text "CAN - design intent"
+		(exclude_from_sim no)
+		(at 20 25 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "46fad4b6-8724-4aa4-828a-a1166d15ce33")
+	)
+	(text "- U6 TCAN1044AV (+-58 V bus fault, 3V3 VIO) on ESP32 TWAI. CAN is the only bus, no RS-485\n- L1 common-mode choke footprint, 0R-bridgeable\n- SJ2 split termination 2 x 60R + 4.7 nF, closed only at the end of the chain\n- ESD diode on CANH / CANL. Daisy chain J1(top) -> ribbons -> J1(bottom), no stubs\n- 500 kbps default. Slot schedule via periodic CAN SYNC frame from the top rail\n- Test points CANH, CANL + GND"
+		(exclude_from_sim no)
+		(at 20 30 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c24d12d5-673d-4162-82f4-aa6e81eade34")
+	)
+)

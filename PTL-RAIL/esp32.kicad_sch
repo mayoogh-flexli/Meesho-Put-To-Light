@@ -1,0 +1,39 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "cb64fa1f-e5c4-4d0c-b9b2-e137b46d7363")
+	(paper "A4")
+	(title_block
+		(title "PTL-RAIL  ESP32")
+		(date "2026-10-17")
+		(rev "A")
+		(company "Flexli Technologies")
+		(comment 1 "Meesho put-to-light, modular TX/RX rail")
+		(comment 2 "Design notes below come from the 16 Oct review; replace with circuitry")
+	)
+	(lib_symbols)
+	(text "- U7 ESP32-S3-WROOM-1-N8 ONLY (no R / PSRAM variants: IO35-37 needed). Fab note required\n- Antenna at rear board edge, copper keep-out both layers\n- USB-C J6 on native USB IO19/IO20, USBLC6-2 ESD. BOOT (IO0) and RESET switches\n- UART0 IO43/IO44 debug header as backup\n- Status LED D9 SK6812-MINI-E, buzzer BZ1 footprint (DNP)\n- Address SW3 4-way DIP on resistor ladder -> one ADC pin\n- J4 2x10 logic-analyser header: 5 gates, 10 TSOP inputs, CAN TX, CAN RX, 3 GND\n- Indicator Q11-Q13 AO3400A low side, 1k gate, 100k pull-down, PWM <= 1 kHz\n- Avoid strapping IO0/3/45/46, USB IO19/20, UART0 IO43/44"
+		(exclude_from_sim no)
+		(at 20 30 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "397096fd-c021-4a59-82f2-9e22b627113b")
+	)
+	(text "ESP32 - design intent"
+		(exclude_from_sim no)
+		(at 20 25 0)
+		(effects
+			(font
+				(size 2 2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "94bb25eb-a527-4a22-9807-13a490d5bde4")
+	)
+)
