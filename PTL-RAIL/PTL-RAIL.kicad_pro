@@ -244,7 +244,44 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "footprint_link_issues|1168400|1003300|09480146-15fe-423b-8c81-dc3b32083ae0|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|1879600|965200|d4076e44-8bb2-4ac9-92f6-ad338c48be25|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|1879600|965200|d4076e44-8bb2-4ac9-92f6-ad338c48be25|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "pin_to_pin|1562100|825500|3338bf36-bf11-46a3-b015-a25beb68abd9|da94e35d-7087-4af5-bb9d-ea9a70478502|/f069ed8f-812c-4c88-b7da-e87f505ec63b/bc5b124e-5bdd-45f5-93ec-a088e5db876b|/f069ed8f-812c-4c88-b7da-e87f505ec63b/bc5b124e-5bdd-45f5-93ec-a088e5db876b|/f069ed8f-812c-4c88-b7da-e87f505ec63b/bc5b124e-5bdd-45f5-93ec-a088e5db876b",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1130300|1092200|a21a7b09-dfea-41d1-90f5-428df5a151f1|00000000-0000-0000-0000-000000000000|/f069ed8f-812c-4c88-b7da-e87f505ec63b/d130fb06-67bd-4958-852c-9b33eac6278c|/f069ed8f-812c-4c88-b7da-e87f505ec63b/d130fb06-67bd-4958-852c-9b33eac6278c|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1333500|1092200|0e770b3c-863e-41b5-8004-7f6f803be930|00000000-0000-0000-0000-000000000000|/f069ed8f-812c-4c88-b7da-e87f505ec63b/d130fb06-67bd-4958-852c-9b33eac6278c|/f069ed8f-812c-4c88-b7da-e87f505ec63b/d130fb06-67bd-4958-852c-9b33eac6278c|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1536700|1092200|860fbc67-f248-44b5-a4e3-df8292f010f6|00000000-0000-0000-0000-000000000000|/f069ed8f-812c-4c88-b7da-e87f505ec63b/d130fb06-67bd-4958-852c-9b33eac6278c|/f069ed8f-812c-4c88-b7da-e87f505ec63b/d130fb06-67bd-4958-852c-9b33eac6278c|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1739900|1092200|c4a80c85-8356-4c8b-b5ea-a74d2567ce62|00000000-0000-0000-0000-000000000000|/f069ed8f-812c-4c88-b7da-e87f505ec63b/d130fb06-67bd-4958-852c-9b33eac6278c|/f069ed8f-812c-4c88-b7da-e87f505ec63b/d130fb06-67bd-4958-852c-9b33eac6278c|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1930400|1092200|72bf7232-4590-40ec-96ef-77bd0b94e1f3|00000000-0000-0000-0000-000000000000|/f069ed8f-812c-4c88-b7da-e87f505ec63b/d130fb06-67bd-4958-852c-9b33eac6278c|/f069ed8f-812c-4c88-b7da-e87f505ec63b/d130fb06-67bd-4958-852c-9b33eac6278c|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -591,7 +628,33 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "CAN": [
+        "CAN_TX",
+        "CAN_RX"
+      ],
+      "RX_NODE": [
+        "RX_1",
+        "RX_2",
+        "RX_3",
+        "RX_4",
+        "RX_5"
+      ],
+      "TSOP_OUT": [
+        "TSOP_OUT_1",
+        "TSOP_OUT_2",
+        "TSOP_OUT_3",
+        "TSOP_OUT_4",
+        "TSOP_OUT_5"
+      ],
+      "TX_NODE": [
+        "TX_1",
+        "TX_2",
+        "TX_3",
+        "TX_4",
+        "TX_5"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -632,7 +695,7 @@
         "uuid": "f069ed8f-812c-4c88-b7da-e87f505ec63b"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J3-6,#PWR58-61",
     "variants": []
   },
   "sheets": [

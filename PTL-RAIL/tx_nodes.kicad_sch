@@ -10,9 +10,935 @@
 		(rev "A")
 		(company "Flexli Technologies")
 		(comment 1 "Meesho put-to-light, modular TX/RX rail")
-		(comment 2 "Design notes below come from the 16 Oct review; replace with circuitry")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:CQY99"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0.508 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CQY99"
+				(at -1.016 -2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.prtice.info/IMG/pdf/CQY99.pdf"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "950nm IR-LED, 5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "IR LED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED*5.0mm*IRGrey*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CQY99_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.413 1.651) (xy -0.889 3.175) (xy -0.889 2.667) (xy -0.889 3.175) (xy -1.397 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 1.651) (xy 0.381 3.175) (xy 0.381 2.667)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -2.54 0) (xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 3.175) (xy -0.127 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CQY99_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:AO3400A"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "AO3400A"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AO3400A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 0.381) (xy 3.683 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO3400A_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 24.13 69.85)
+		(end 266.7 143.51)
+		(radius 2)
+		(stroke
+			(width 0.5)
+			(type default)
+			(color 111 111 111 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "eaf37239-8fa7-46c3-9230-82f8445aaddb")
+	)
 	(text "- 5 nodes, bottom face, fire down into the bin below\n- Per node: 5 mm 940 nm IR LED from 5 V, R_LED footprint 100R-2k2 (start 180R)\n- AO3400A low side, 100R gate, 100k gate pull-down, 10R source sense\n- Gates driven from one RMT 38 kHz carrier routed by the GPIO matrix\n- LED returns to connector GND, not under the TSOP row\n- Node 1: TP gate, TP sense + GND"
 		(exclude_from_sim no)
 		(at 20 30 0)
@@ -35,5 +961,3999 @@
 			(justify left bottom)
 		)
 		(uuid "d6d5105d-d3f1-485d-9487-1b0603949a81")
+	)
+	(text_box "[${#}] ${SHEETNAME}"
+		(exclude_from_sim no)
+		(at 71.12 54.61 0)
+		(size 130.81 12.7)
+		(margins 5.9999 5.9999 5.9999 5.9999)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.2)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+		)
+		(uuid "7b7a2655-2a0f-40fc-a70e-6822555691fe")
+	)
+	(junction
+		(at 95.25 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1052e1e7-bc2c-4acd-a65c-8e6f5bc47d2f")
+	)
+	(junction
+		(at 153.67 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14583a5d-e632-49f5-adf3-d2eb0c543fb1")
+	)
+	(junction
+		(at 49.53 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78aaa690-21a4-4fc3-930f-60ef9f67bd28")
+	)
+	(junction
+		(at 104.14 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "895d7a4e-2e58-43dc-a283-11824ad07d27")
+	)
+	(junction
+		(at 190.5 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b0702f1-2b2a-42c0-8deb-a218eba6ca14")
+	)
+	(junction
+		(at 144.78 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95f34d4a-6333-48b4-b370-6c619bcef5eb")
+	)
+	(junction
+		(at 199.39 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9798d983-542f-4cc5-95ae-47362c6237f5")
+	)
+	(junction
+		(at 246.38 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae04ba0d-7d5f-4ba8-8cf1-df0d1a3bdd6b")
+	)
+	(junction
+		(at 58.42 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0623534-6ef6-4c46-b9af-a7c528442c26")
+	)
+	(junction
+		(at 237.49 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd132ca2-ff61-47eb-9f4b-6fe6a86f20a2")
+	)
+	(bus_entry
+		(at 48.26 158.75)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2186dea6-5a2b-4b43-9729-01ffb6aa919d")
+	)
+	(bus_entry
+		(at 48.26 161.29)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d15bb98e-1e6f-4a8e-bacf-07d2e5a1ddfd")
+	)
+	(bus_entry
+		(at 48.26 166.37)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5a77224-d4ba-4832-bb30-270681e044f3")
+	)
+	(bus_entry
+		(at 48.26 156.21)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5fa505e-0822-4119-96c5-ed137162a0fd")
+	)
+	(bus_entry
+		(at 48.26 163.83)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d19270-d61b-4391-b943-abba90413fe5")
+	)
+	(wire
+		(pts
+			(xy 190.5 124.46) (xy 199.39 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e60b19-1ce1-4426-a2d8-2a439ed0d4cc")
+	)
+	(wire
+		(pts
+			(xy 153.67 106.68) (xy 153.67 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05f9d376-d251-48df-8d2e-97690774b5b4")
+	)
+	(wire
+		(pts
+			(xy 95.25 114.3) (xy 96.52 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a0026b-729f-449d-b532-b2f8cb527e65")
+	)
+	(wire
+		(pts
+			(xy 236.22 114.3) (xy 237.49 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12bb4311-6832-40a6-86b9-58b840f6b427")
+	)
+	(wire
+		(pts
+			(xy 199.39 97.79) (xy 199.39 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1509c7d4-7f33-4cf5-b843-ed6eff6b50f0")
+	)
+	(wire
+		(pts
+			(xy 171.45 114.3) (xy 181.61 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1517304c-25e2-41c1-b599-31340ca04c38")
+	)
+	(wire
+		(pts
+			(xy 246.38 97.79) (xy 246.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e18954c-a2e0-443f-9bc3-aed5fdf81324")
+	)
+	(wire
+		(pts
+			(xy 218.44 114.3) (xy 228.6 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd963a2-5d6d-49fd-8155-4fc6e5fb22b5")
+	)
+	(wire
+		(pts
+			(xy 144.78 124.46) (xy 153.67 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24b9f423-b378-4d82-ad46-87f98b6826f5")
+	)
+	(wire
+		(pts
+			(xy 144.78 114.3) (xy 146.05 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "268876ae-2bac-48ff-a700-6b0305636cf6")
+	)
+	(wire
+		(pts
+			(xy 189.23 114.3) (xy 190.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d075a88-d7e3-406e-980a-209263cdfd3b")
+	)
+	(wire
+		(pts
+			(xy 237.49 124.46) (xy 246.38 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5213b937-8270-4dbd-9914-e481e2882df9")
+	)
+	(wire
+		(pts
+			(xy 30.48 114.3) (xy 40.64 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523d447f-bd6a-4158-b83a-25be081b2314")
+	)
+	(wire
+		(pts
+			(xy 93.98 114.3) (xy 95.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "524cae90-2e58-4ea6-b857-26845b6dca37")
+	)
+	(wire
+		(pts
+			(xy 246.38 90.17) (xy 246.38 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56052f84-b298-4529-99b2-a95a90ea5019")
+	)
+	(bus
+		(pts
+			(xy 40.64 153.67) (xy 45.72 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57a10089-ea70-4d4d-a8ec-6ac3bf5d0f62")
+	)
+	(wire
+		(pts
+			(xy 199.39 124.46) (xy 199.39 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58f8852b-d15e-40b8-96a3-019a48b6bb20")
+	)
+	(wire
+		(pts
+			(xy 48.26 114.3) (xy 49.53 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf48114-acd2-418b-b832-1079d17af31a")
+	)
+	(wire
+		(pts
+			(xy 153.67 124.46) (xy 153.67 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f785bff-071c-4b2d-9e13-d844d4bb1cd7")
+	)
+	(wire
+		(pts
+			(xy 58.42 128.27) (xy 58.42 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6016e351-00fa-4f58-8f9e-def25b9dc33d")
+	)
+	(wire
+		(pts
+			(xy 58.42 124.46) (xy 58.42 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68b94a05-e481-4c72-bbb0-9893008ff02d")
+	)
+	(wire
+		(pts
+			(xy 50.8 168.91) (xy 59.69 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "710d6255-4cdb-4d88-aa12-eee05f83893c")
+	)
+	(wire
+		(pts
+			(xy 143.51 114.3) (xy 144.78 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f9902e9-e096-415b-a363-e993d65252ce")
+	)
+	(wire
+		(pts
+			(xy 58.42 106.68) (xy 58.42 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8122ca62-06b1-4b1e-9315-1affc49a0cbb")
+	)
+	(wire
+		(pts
+			(xy 95.25 114.3) (xy 95.25 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b428bb9-f721-4b66-a9bf-76a4d3d02ea0")
+	)
+	(wire
+		(pts
+			(xy 104.14 90.17) (xy 104.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fda4c55-b84a-408a-9dcb-97ce4cfca87f")
+	)
+	(wire
+		(pts
+			(xy 237.49 114.3) (xy 237.49 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "914c71c4-544d-4dec-b285-f9c317d0c38a")
+	)
+	(wire
+		(pts
+			(xy 50.8 163.83) (xy 59.69 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "925b0493-bb90-4767-979b-938cb0acd995")
+	)
+	(wire
+		(pts
+			(xy 58.42 97.79) (xy 58.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953b4e88-492a-4663-a3b9-7b8930fd576d")
+	)
+	(wire
+		(pts
+			(xy 153.67 90.17) (xy 153.67 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "977a1663-262a-4638-ae47-8c2ec3f5b64d")
+	)
+	(wire
+		(pts
+			(xy 50.8 158.75) (xy 59.69 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99fbe4cd-1d46-4059-bd4b-f086160a1ed9")
+	)
+	(wire
+		(pts
+			(xy 246.38 128.27) (xy 246.38 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a037d292-5701-48fd-b5cd-247c5f95ec6d")
+	)
+	(wire
+		(pts
+			(xy 104.14 124.46) (xy 104.14 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a617a3eb-1562-4e24-98e9-8973be013396")
+	)
+	(wire
+		(pts
+			(xy 104.14 106.68) (xy 104.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7a4dc58-c592-4edb-a49b-1e525314fb61")
+	)
+	(wire
+		(pts
+			(xy 246.38 124.46) (xy 246.38 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aacce71e-643e-48d5-bec9-d6cd2be31141")
+	)
+	(wire
+		(pts
+			(xy 49.53 114.3) (xy 49.53 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab878fd4-ef0c-4fbc-9557-cc7b203b41bf")
+	)
+	(wire
+		(pts
+			(xy 237.49 114.3) (xy 238.76 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bedf1baa-6a32-4eb7-9698-95ff11ecc8d6")
+	)
+	(wire
+		(pts
+			(xy 125.73 114.3) (xy 135.89 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c271fba0-7ee0-4f45-83ba-9fadc7747a0f")
+	)
+	(wire
+		(pts
+			(xy 153.67 128.27) (xy 153.67 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c77adb3c-c9f3-4060-83c6-6a93bfe82fb5")
+	)
+	(wire
+		(pts
+			(xy 104.14 97.79) (xy 104.14 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c84ff8-b7ea-4a12-8927-fdc776499c9e")
+	)
+	(wire
+		(pts
+			(xy 144.78 114.3) (xy 144.78 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1717d5b-d4b9-45d5-9523-af045c7446fd")
+	)
+	(wire
+		(pts
+			(xy 199.39 128.27) (xy 199.39 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2c39bc6-67a0-4e60-9392-c9d0638c5de8")
+	)
+	(wire
+		(pts
+			(xy 153.67 97.79) (xy 153.67 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d37efced-539b-4592-b4e0-8696d89f92f7")
+	)
+	(bus
+		(pts
+			(xy 48.26 156.21) (xy 48.26 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d1771c-8a31-4ecc-95f1-8ba1e21b8900")
+	)
+	(wire
+		(pts
+			(xy 199.39 106.68) (xy 199.39 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ec9ce8-ccfa-4ebf-ab13-9574c0d3fc2b")
+	)
+	(wire
+		(pts
+			(xy 95.25 124.46) (xy 104.14 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d97dac09-869a-4c49-b43f-5bf10504fddf")
+	)
+	(wire
+		(pts
+			(xy 58.42 90.17) (xy 58.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd58a326-092e-4a33-b705-81c89342e745")
+	)
+	(wire
+		(pts
+			(xy 246.38 106.68) (xy 246.38 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e38dede2-6e12-4c39-b079-21075992de47")
+	)
+	(wire
+		(pts
+			(xy 49.53 114.3) (xy 50.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5750f12-3a2d-4261-8f27-87e0cc1fa867")
+	)
+	(wire
+		(pts
+			(xy 50.8 161.29) (xy 59.69 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e64ff2a3-d3d9-4b21-87ca-7c65644769b0")
+	)
+	(wire
+		(pts
+			(xy 49.53 124.46) (xy 58.42 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91b4c4e-8605-4296-99d8-451e492a27d1")
+	)
+	(wire
+		(pts
+			(xy 104.14 128.27) (xy 104.14 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e972cd87-6ce7-40c1-a292-721b89b67d79")
+	)
+	(bus
+		(pts
+			(xy 45.72 153.67) (xy 48.26 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb7b4514-999a-4e5a-8e8a-e93ad282309f")
+	)
+	(wire
+		(pts
+			(xy 76.2 114.3) (xy 86.36 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed8c6e7a-4991-458d-8233-99664812f2a6")
+	)
+	(wire
+		(pts
+			(xy 190.5 114.3) (xy 191.77 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed9b02bb-9c02-4eb0-b6ba-8a2f47e9e547")
+	)
+	(wire
+		(pts
+			(xy 50.8 166.37) (xy 59.69 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee477408-e5eb-4e20-b268-b5cd06f934c3")
+	)
+	(wire
+		(pts
+			(xy 199.39 90.17) (xy 199.39 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1037c3d-edb4-4db6-8b50-38f92a8f35bf")
+	)
+	(wire
+		(pts
+			(xy 190.5 114.3) (xy 190.5 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f859efb1-a529-4872-b5ba-508062fc1725")
+	)
+	(image
+		(at 193.04 171.45)
+		(scale 0.380647)
+		(uuid "3a4e0cb2-89a5-4c34-b733-59d47f67e653")
+		(data "iVBORw0KGgoAAAANSUhEUgAAA5UAAAEYCAYAAADMGdL8AAAABHNCSVQICAgIfAhkiAAAIABJREFU"
+			"eJzs3Xl4VOX5//HPfWaSICLIYhW0FRVFkhmyKopVwWqtS2s3sF+1rYpkglqr1qXWLWq1ta6lKpmA"
+			"S62tFmu12lq1rVB/dUEzMyGZAAq0ViugImGVLDPn/v0BKCpLJpmZe87M53Vd1ktI5ryxQubOec7z"
+			"AERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERE"
+			"RERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERE"
+			"RERERERERERERERERERERERERERERCkT6wAiopyjKhUPNA/a8o9dXcmBxa7P6e3L+Zzke5FQzYe9"
+			"+dyDwk3D+ru+Ab29dja5fifRMrX8f9YdRERexD/vycv81gFERMF7WgY7fncP13WHqqND4WJXOLKr"
+			"qg4EAAeym0J9mz7a8UPdTV90RUSAj4Y/hQ5SEQEAx8VuKtj8OegPoHjzR/UDpB8ACFCkwK6bP8YH"
+			"YNPrNsaQ2KrPgYOEo73+9SXh+waAJ3rzuSVwbk04+v1eXzyb3OR/AYy0ziAi8iL+eU9exqGSiDJu"
+			"1PRXBpb0KxntAAe5rh4k0AMg8nlA9gF0H0WiOKnYtHZCZfPfAdm8mGLTOLdlYYUC8vEii0+OegLZ"
+			"/AO63XUY2/tcIiIiIuoNDpVElFYH3zVvaFFx0aGqOk5FKqAoF2AkVKHYMg9uNSASERERkadxqCSi"
+			"Phk7c/4+bjIxAY5MgOIoAAeqAlvfNSQiIiKi/MWhkohSUh1uKupw5EionCSKE103eTBEeNORiIiI"
+			"qEBxqCSinRo1fXFJSfHaL4s4kzuhXxMXA62biIiIiCg3cKgkou0KNMbGi+ueqbLuVEAG8nYkERER"
+			"EX1a9obKSZN8g1aV7es4ONgR9wCFMxSiu0ExAJCSrHUQ7YAC//P7cdf7T9evsG6xUjarbYiT6DxT"
+			"BXVQPVCFx9kSERER0fZlbqicNMk3uL30cBGdKOJ8SdfoOPi0HwDolvMCPrrpwbsflBsEQDKBbwIo"
+			"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"
+			"KcZfn1nSJwIXdkcOSDrQXujb6ErcIcVfkGxD6LYadlrSzyzyRxYW53UpmbJFH8uL2ztHr0YLLlHe"
+			"4uL8XJGRy/l4xw+PtS72M8W7O8a0/X//neP9lXHN5Mz9UyuX50N3XExitjIbuuFKs9ABAAA0so88"
+			"WExH7lslv03zA0SW8oRKl3RM8sMW6XDpnq4BmXnoKADAO8OiEgCAKrn+ey+8Z1lz6pMW+y1m0S0u"
+			"z6qxp1RWJB032fPu8W882XyUyzcBoPGwqAQAIJBMoW/FdJzoNPMumXVK3ilpo+pzgMi4pD/IdEKy"
+			"UmTxQFPs/f257GToMADA1cWiEgCAWuJuH/7+sdVNZV0fS+s90lrzhQEi0gcltUlq0fzgkGoZl+xV"
+			"yc/J9A93eymSvySz02bxX8uzlT8P7+5+uYo9AIAawqISAIA69LF9zy0ffVeqdVmcWBYrenc5EScl"
+			"KZJWqKLUYr4rjipTssTMG+891kTKbdKafaJ4suOC8kxjBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAC8xb8AAA4cXauEKtwAAAAASUVORK5CYIIgMCkKCQkoZWZmZWN0cwoJCQkoZm9udAoJ"
+			"CQkJKHNpemUgMS4yNyAxLjI3KQoJCQkpCgkJCShqdXN0aWZ5IGxlZnQgYm90dG9tKQoJCSkKCQko"
+			"dXVpZCAiZDdlMWFlY2MtM2QyYS00MGFlLTk2ZTYtZTAwMDUxYTUxN2VmIikKCSkKCShsYWJlbCAi"
+			"RVNDT05fQlJBS0UiCgkJKGF0IDEzOC40MyA4OC45IDApCgkJKGVmZmVjdHMKCQkJKGZvbnQKCQkJ"
+			"CShzaXplIDEuMjcgMS4yNykKCQkJKQoJCQkoanVzdGlmeSBsZWZ0IGJvdHRvbSkKCQkpCgkJKHV1"
+			"aWQgImYxNmZiYWRhLTY4MTItNDllMi04ZjBmLWFiNGI1MTU2ZWZkMiIpCgkpCgkoaGllcmFyY2hp"
+			"Y2FsX2xhYmVsICJ7RVNDT059IgoJCShzaGFwZSBiaWRpcmVjdGlvbmFsKQoJCShhdCAxMjcgODMu"
+			"ODIgMTgwKQoJCShlZmZlY3RzCgkJCShmb250CgkJCQkoc2l6ZSAxLjI3IDEuMjcpCgkJCQkoYm9s"
+			"ZCB5ZXMpCgkJCSkKCQkJKGp1c3RpZnkgcmlnaHQpCgkJKQoJCSh1dWlkICJlZjllMWVlMS0yODFi"
+			"LTQ3YjItOGU1ZS0yYzY4MjNmYjM4ZDYiKQoJKQoJKHN5bWJvbAoJCShsaWJfaWQgIkRldmljZTpS"
+			"IikKCQkoYXQgMTY4LjkxIDExNC4zIDkwKQoJCSh1bml0IDEpCgkJKGV4Y2x1ZGVfZnJvbV9zaW0g"
+			"bm8pCgkJKGluX2JvbSB5ZXMpCgkJKG9uX2JvYXJkIHllcykKCQkoZG5wIHllcykKCQkodXVpZCAi"
+			"MWVjZTM4MDEtODkxOS00ZTc0LTk4YzctMzQwMTYyZDRhZmRlIikKCQkocHJvcGVydHkgIlJlZmVy"
+			"ZW5jZSIgIlI3NiIKCQkJKGF0IDE2OC45MSAxMTQuMyA5MCkKCQkJKGVmZmVjdHMKCQkJCShmb250"
+			"CgkJCQkJKHNpemUgMSAxKQoJCQkJKQoJCQkpCgkJKQoJCShwcm9wZXJ0eSAiVmFsdWUiICIxMEsg"
+			"MS80VyIKCQkJKGF0IDE2MS45MjUgMTEzLjAzIDkwKQoJCQkoZWZmZWN0cwoJCQkJKGZvbnQKCQkJ"
+			"CQkoc2l6ZSAxIDEpCgkJCQkpCgkJCSkKCQkpCgkJKHByb3BlcnR5ICJGb290cHJpbnQiICJQQ01f"
+			"UmVzaXN0b3JfU01EX0FLTDpSXzA4MDVfMjAxMk1ldHJpY19QYWQxLjE1eDEuNDBtbV9IYW5kU29s"
+			"ZGVyIgoJCQkoYXQgMTY4LjkxIDExNi4wNzggOTApCg=="
+		)
+	)
+	(label "TX_1"
+		(at 59.69 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0deb0089-f9ea-4ace-96ab-644bd02ba675")
+	)
+	(label "TX_2"
+		(at 59.69 161.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "37ca6128-be50-4cef-a77e-09b0fb3956ba")
+	)
+	(label "TX_5"
+		(at 218.44 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "53da1ef9-05e7-4c73-a15c-3550b3558202")
+	)
+	(label "TX_2"
+		(at 76.2 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70eba1bc-cc1f-445f-a2ca-cab43ac6e454")
+	)
+	(label "TX_3"
+		(at 125.73 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d5c6452-0541-45c3-ab45-45b19f611886")
+	)
+	(label "TX_1"
+		(at 30.48 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5b40611-db45-41c1-ab28-7a306aac0ae1")
+	)
+	(label "TX_4"
+		(at 59.69 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d4566eb9-6b28-4e28-8b0b-00708b7f3a03")
+	)
+	(label "TX_5"
+		(at 59.69 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e7a31ace-5451-4457-a815-c7fd53637d80")
+	)
+	(label "TX_4"
+		(at 171.45 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f17e3efd-9b99-46cb-92c9-20e595a119ec")
+	)
+	(label "TX_3"
+		(at 59.69 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f26d24ed-84fa-4e1c-bb02-ea1b49b5aae3")
+	)
+	(hierarchical_label "{TX_NODE}"
+		(shape bidirectional)
+		(at 40.64 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "4eb254c5-6328-408e-a9b7-1941ede2aa3c")
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 58.42 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "056429b7-f8f8-4d69-83cb-3fad8c2d398d")
+		(property "Reference" "#PWR038"
+			(at 58.42 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 58.42 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 58.42 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d038b69a-17d6-4e6c-a0a4-0caa40a4fea7")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 120.65 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0713f2e6-5af6-48fc-8b1f-aeee7d26106e")
+		(property "Reference" "R10"
+			(at 52.07 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 52.07 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 51.308 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2c7ce79e-3880-4f14-9286-37c55c0ed8bd")
+		)
+		(pin "1"
+			(uuid "866ec118-d5bd-4a39-a675-d83742c9768a")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13115e6c-d3b4-4492-9ac2-ed5a0538fbd3")
+		(property "Reference" "R15"
+			(at 139.7 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 139.7 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 139.7 116.078 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 139.7 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "feafc7ce-14c4-4f2a-aac6-12951248e8e6")
+		)
+		(pin "1"
+			(uuid "5d058358-55e9-4037-9694-ed8decb36d09")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 246.38 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1935089c-eedc-4161-bef0-de83bbe681e3")
+		(property "Reference" "#PWR046"
+			(at 246.38 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 246.38 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 246.38 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ecd6ba9-50c8-41d0-8762-f1e528941e68")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.14 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1be3efc1-d668-4cb2-aeaa-a7e7d39264fd")
+		(property "Reference" "R14"
+			(at 106.68 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "180R"
+			(at 106.68 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 102.362 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 104.14 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "32f51e93-c944-4b28-89ff-56623266ec37")
+		)
+		(pin "1"
+			(uuid "a3811642-f415-4b65-b5ff-0ea2eba71d46")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 55.88 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b1402f9-7c34-4a5d-8dea-fffd4856a61d")
+		(property "Reference" "Q1"
+			(at 62.23 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 62.23 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 60.96 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 60.96 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 55.88 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4a9d142c-3c38-44e1-8ae4-a8dc673dbac6")
+		)
+		(pin "1"
+			(uuid "6572c025-0a13-4879-afee-267ad8e8a85c")
+		)
+		(pin "3"
+			(uuid "4277d59f-af04-4823-8206-4e64b43b9933")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 120.65 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d76394b-00f6-48d2-96f3-ce7ce5a1abc1")
+		(property "Reference" "R16"
+			(at 147.32 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 147.32 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 146.558 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2f8bde48-b522-45ea-b9b3-777065788f94")
+		)
+		(pin "1"
+			(uuid "55465384-4de8-4726-b64d-5ddda591970b")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 101.6 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b05d3d9-4e94-4d8e-830b-c27a70cdf76e")
+		(property "Reference" "Q2"
+			(at 107.95 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 107.95 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 106.68 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 106.68 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 101.6 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "76d990a4-b9a8-4d8e-8095-bdc8d3f63f9f")
+		)
+		(pin "1"
+			(uuid "7fd0ba85-862c-4aaf-a8ce-90e0312019b6")
+		)
+		(pin "3"
+			(uuid "b0ba0d89-148f-42b8-b0c2-bd59c832c6a4")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 90.17 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47bde22a-ca2d-4d7a-b906-b2b0444f8ad2")
+		(property "Reference" "R12"
+			(at 90.17 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 90.17 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 90.17 116.078 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 90.17 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5355842b-d233-45da-8776-50ec24fe381a")
+		)
+		(pin "1"
+			(uuid "093bf0de-0fc6-47d2-b635-a7e002894842")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 237.49 120.65 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bdbd7d1-8d1d-4285-be46-0a56613a9b8f")
+		(property "Reference" "R22"
+			(at 240.03 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 240.03 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 239.268 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 237.49 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f81d39df-682f-43a8-aca5-3191428d8fa0")
+		)
+		(pin "1"
+			(uuid "ea517c74-a393-4e83-8631-3908f372e81f")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 243.84 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "511d5ccb-a3f3-4f26-b19b-1c95defd1e91")
+		(property "Reference" "Q5"
+			(at 250.19 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 250.19 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 248.92 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 248.92 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 243.84 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9339498c-176e-4816-84f8-41dc19f99b46")
+		)
+		(pin "1"
+			(uuid "a89daefe-b6a0-4a2c-9cb2-a3bf4b9f4ee6")
+		)
+		(pin "3"
+			(uuid "e9d27291-a790-4f37-b491-08afd2cf849f")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 199.39 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "512368e3-e510-4431-9901-a8acae8c7d5c")
+		(property "Reference" "#PWR044"
+			(at 199.39 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 199.39 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 199.39 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bea9c5db-b3db-4bea-8519-dd62efd4819f")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 120.65 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54980b9d-9dfd-4f3e-9be6-281e6ee6bd82")
+		(property "Reference" "R13"
+			(at 97.79 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 97.79 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 97.028 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e22554d5-f406-47d7-9a78-2cce1d6727f2")
+		)
+		(pin "1"
+			(uuid "465a43e2-3305-4991-a80c-5ad4b0118bb5")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:CQY99")
+		(at 199.39 101.6 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a820dc9-8663-4afe-8aec-8473b9f7fb8d")
+		(property "Reference" "D10"
+			(at 193.04 102.743 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IR333C"
+			(at 195.58 102.743 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRGrey"
+			(at 203.835 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.prtice.info/IMG/pdf/CQY99.pdf"
+			(at 199.39 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "950nm IR-LED, 5mm"
+			(at 199.39 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "205e2bf8-50a9-4842-96b0-68037a931f95")
+		)
+		(pin "2"
+			(uuid "39d8c039-b166-4387-bcac-4253c3773055")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 153.67 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ad162cd-16f2-4b18-a03a-e3748334ba60")
+		(property "Reference" "#PWR042"
+			(at 153.67 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 153.67 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 153.67 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19084ab4-f859-4c2f-bd29-41e93369a38c")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60647616-08a7-4c02-b8e9-4cbf4e70c13c")
+		(property "Reference" "R17"
+			(at 156.21 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "180R"
+			(at 156.21 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 151.892 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "12c20658-3cb2-482a-a7bb-af41ba2837fa")
+		)
+		(pin "1"
+			(uuid "16eb8871-aab2-4a8c-ac19-12731f156e17")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 151.13 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67ebc991-3e01-42af-880c-6e319010d598")
+		(property "Reference" "Q3"
+			(at 157.48 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 157.48 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 156.21 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 156.21 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 151.13 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "831ac8df-cedf-45b2-9f32-e52f2890627f")
+		)
+		(pin "1"
+			(uuid "2817c121-538d-4820-a8b4-f15f508637db")
+		)
+		(pin "3"
+			(uuid "99c6bbfa-0b31-47ce-b9ef-40e139383c33")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 104.14 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74ebaa17-34af-4820-ac4c-c8a982717359")
+		(property "Reference" "#PWR040"
+			(at 104.14 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 104.14 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 104.14 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7dbccfa-a6e6-4c4b-8675-0caae467ca05")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c335bd7-1ddd-4fad-86dc-0d5aec022c60")
+		(property "Reference" "#PWR045"
+			(at 199.39 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02586b98-b5cc-4f1c-9bab-2e53b8de7636")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 185.42 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82a9e4ef-3232-4057-a986-3bc1aaf7efd4")
+		(property "Reference" "R18"
+			(at 185.42 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 185.42 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 185.42 116.078 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 185.42 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a3b527cb-07c2-49e7-8f8c-fa4d6d68f034")
+		)
+		(pin "1"
+			(uuid "145f1e69-d005-45e9-92e1-d58bfec528fe")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85d41e7f-0f65-4856-b493-c87e7a0ec8be")
+		(property "Reference" "R11"
+			(at 60.96 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "180R"
+			(at 60.96 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 56.642 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5dc6715d-da8f-45d2-b952-5ee3e9b0e6b7")
+		)
+		(pin "1"
+			(uuid "ce5a027a-8562-40a8-9c70-22cb7b3144b6")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:CQY99")
+		(at 153.67 101.6 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "977cbb45-0a83-4b2f-822a-fa9de51a0a74")
+		(property "Reference" "D9"
+			(at 147.32 102.743 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IR333C"
+			(at 149.86 102.743 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRGrey"
+			(at 158.115 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.prtice.info/IMG/pdf/CQY99.pdf"
+			(at 153.67 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "950nm IR-LED, 5mm"
+			(at 153.67 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5dc51bff-2de5-48aa-8ae4-f5fd30cdb2f9")
+		)
+		(pin "2"
+			(uuid "ed996d57-ed95-4106-b785-168ffc0e255c")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dca70d7-1acb-4f25-b5a6-3a3a515851d0")
+		(property "Reference" "#PWR041"
+			(at 104.14 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc096af4-8b08-4abc-8c3e-2e8491c13742")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 190.5 120.65 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a27f3cdc-d59c-413a-8f6c-553b4b6cf8e5")
+		(property "Reference" "R19"
+			(at 193.04 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 193.04 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 192.278 120.65 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8e6ea1fe-cf07-482b-9964-4c9da73d1804")
+		)
+		(pin "1"
+			(uuid "15791109-847c-4982-bd6d-92b73964f9e4")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 232.41 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8bf698d-54a5-494f-839a-9e58ae913eed")
+		(property "Reference" "R21"
+			(at 232.41 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 232.41 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 232.41 116.078 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 232.41 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9b1ff561-6a70-499c-83fd-bc14fadded9f")
+		)
+		(pin "1"
+			(uuid "06d4f613-e841-4259-8662-cadc7d1d3dc6")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:CQY99")
+		(at 104.14 101.6 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b231d965-2287-4b33-9f27-e77a03030d44")
+		(property "Reference" "D8"
+			(at 97.79 102.743 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IR333C"
+			(at 100.33 102.743 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRGrey"
+			(at 108.585 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.prtice.info/IMG/pdf/CQY99.pdf"
+			(at 104.14 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "950nm IR-LED, 5mm"
+			(at 104.14 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31b7d95e-438d-444a-99e5-91d975145786")
+		)
+		(pin "2"
+			(uuid "5d604264-a6c2-45b8-acd4-648fa6146cc2")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 199.39 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c302a31d-b329-42eb-8e3b-f2b0a64ba3c7")
+		(property "Reference" "R20"
+			(at 201.93 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "180R"
+			(at 201.93 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 197.612 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 199.39 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0535c6fe-dbc6-4fc9-b06d-cd717a698e83")
+		)
+		(pin "1"
+			(uuid "803b357a-d98b-4bcc-820d-a4116c9b7918")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 246.38 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd3118e5-b0be-4527-9d32-4d24e8a72737")
+		(property "Reference" "R23"
+			(at 248.92 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "180R"
+			(at 248.92 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 244.602 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 246.38 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "65b79cc2-9516-45ce-8320-471614f2a8ed")
+		)
+		(pin "1"
+			(uuid "423cd30d-e602-464b-b46b-47e393d38a48")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 114.3 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d214ec1c-79b9-4098-9b57-cdfcd3e5bfcb")
+		(property "Reference" "R9"
+			(at 44.45 107.95 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 44.45 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 44.45 116.078 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e73c8e1c-87fc-4a5a-9bb4-a6182ac2876b")
+		)
+		(pin "1"
+			(uuid "ed4d2152-f21b-4f4c-af5b-26f958c6bccb")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3ad0bf4-b87f-43ca-83ff-59c64c2be9a5")
+		(property "Reference" "#PWR047"
+			(at 246.38 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9ab31007-1179-4606-9d04-16273096148f")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de226481-3fc2-4c42-adf2-b3ac2f79dd5c")
+		(property "Reference" "#PWR043"
+			(at 153.67 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5127a40-018d-43c9-b5a6-6c1b40bf67c4")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2983643-985f-4088-a9bf-7c1ea2d4b3a9")
+		(property "Reference" "#PWR039"
+			(at 58.42 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "74c8f493-7854-4e84-ba1d-5a142f0f425f")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:CQY99")
+		(at 58.42 101.6 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4580a52-0200-42ce-a1ff-555ed4ce40ba")
+		(property "Reference" "D7"
+			(at 52.07 102.743 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IR333C"
+			(at 54.61 102.743 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRGrey"
+			(at 62.865 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.prtice.info/IMG/pdf/CQY99.pdf"
+			(at 58.42 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "950nm IR-LED, 5mm"
+			(at 58.42 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8dd14b41-1cbe-49a9-8382-4d80b8ec8978")
+		)
+		(pin "2"
+			(uuid "d93e2d8d-d05d-46b1-8991-a22c244eeba3")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:CQY99")
+		(at 246.38 101.6 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "edb51d9e-c9b7-40c4-8c79-bb94822d1bbb")
+		(property "Reference" "D11"
+			(at 240.03 102.743 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IR333C"
+			(at 242.57 102.743 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm_IRGrey"
+			(at 250.825 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.prtice.info/IMG/pdf/CQY99.pdf"
+			(at 246.38 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "950nm IR-LED, 5mm"
+			(at 246.38 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a787f60b-1dc2-4bfd-9b36-691100638bad")
+		)
+		(pin "2"
+			(uuid "61801b81-59ab-4bcc-8c60-c92e450ccf60")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 196.85 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0daf1c1-6441-418d-9533-b6ef6867932d")
+		(property "Reference" "Q4"
+			(at 203.2 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 203.2 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 201.93 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 201.93 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 196.85 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3dabf3ed-f9dd-4581-bce2-06089a26d91a")
+		)
+		(pin "1"
+			(uuid "bf9ff64d-960b-4dc5-ad59-946fbd3c3735")
+		)
+		(pin "3"
+			(uuid "683ea125-9f8b-4f9e-9996-05ea0d7ccac3")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/9f7bb5b6-7e24-4ede-8cbb-4b02f9927357"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
 	)
 )
