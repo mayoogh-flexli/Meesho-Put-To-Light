@@ -1419,7 +1419,7 @@
 			(uuid "5e5b7d8a-fb50-4b08-80fd-67b1d9b80cc3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_4Ucon.3dshapes/TerminalBlock_4Ucon_1x04_P3.50mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2382,7 +2382,7 @@
 			(uuid "f19530bc-0025-48ae-b703-96915d499463")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_4Ucon.3dshapes/TerminalBlock_4Ucon_1x04_P3.50mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4644,7 +4644,7 @@
 			(uuid "2e3e9463-5d25-47c7-a69e-538bd48962a4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_4Ucon.3dshapes/TerminalBlock_4Ucon_1x10_P3.50mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_PT-1,5-10-3.5-H_1x10_P3.50mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5914,7 +5914,7 @@
 			(uuid "8be83d2c-b1ec-4dea-a839-458f29de3d06")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_4Ucon.3dshapes/TerminalBlock_4Ucon_1x10_P3.50mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_PT-1,5-10-3.5-H_1x10_P3.50mm_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19964,6 +19964,17 @@
 			(uuid "90a0791f-2b45-4700-8ed5-fe71d8098e76")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/lib/3d_models/TPS54360BQDDARQ1.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 		(layer "F.Cu")

@@ -95,4 +95,9 @@
   (pad "7" smd rect (at 2.72415 -0.635) (size 1.4605 0.5334) (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "8" smd rect (at 2.72415 -1.905) (size 1.4605 0.5334) (layers "F.Cu" "F.Paste" "F.Mask"))
   (pad "EPAD" smd rect (at 0 0) (size 2.4 3.099999) (layers "F.Cu" "F.Mask"))
+  (model "${KIPRJMOD}/lib/3d_models/TPS54360BQDDARQ1.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
