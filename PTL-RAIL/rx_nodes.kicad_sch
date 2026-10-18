@@ -2325,7 +2325,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7 µF"
+		(property "Value" "4.7uF"
 			(at 148.59 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2488,7 +2488,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7 µF"
+		(property "Value" "4.7uF"
 			(at 128.27 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2724,7 +2724,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7 µF"
+		(property "Value" "4.7uF"
 			(at 107.95 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3118,7 +3118,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7 µF"
+		(property "Value" "4.7uF"
 			(at 168.91 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3835,7 +3835,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7 µF"
+		(property "Value" "4.7uF"
 			(at 187.96 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)

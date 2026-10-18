@@ -4189,6 +4189,10 @@
 		(uuid "f905facf-8921-42d8-88d2-25cafa788f7e")
 	)
 	(no_connect
+		(at 100.33 135.89)
+		(uuid "8aeb1364-d567-4772-adc2-e8779c0b1a43")
+	)
+	(no_connect
 		(at 100.33 118.11)
 		(uuid "0866afcf-85c5-46d9-b52d-2fc7c931b665")
 	)
@@ -7577,7 +7581,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 250.19 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8850,7 +8854,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 123.19 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9574,7 +9578,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 271.78 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9655,7 +9659,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 180.34 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10051,7 +10055,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 228.6 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10639,7 +10643,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 125.73 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11958,7 +11962,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "100nF"
 			(at 33.02 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
