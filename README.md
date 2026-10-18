@@ -237,6 +237,7 @@ The production files are attached to each [GitHub release](../../releases). The 
 | Reference designator list | `PTL-RAIL_revA_refdes.csv` |
 | Schematic (PDF plot) | `PTL-RAIL_revA_schematic.pdf` |
 | Schematic (KiCad source) | `PTL-RAIL_revA_kicad-source.zip` (project, sheets, PCB, libraries, 3D models, panel PCB) |
+| 3D model (STEP) | `PTL-RAIL_revA_step.zip` → `PTL-RAIL_revA.step` (board, components, copper, silkscreen; ~40 MB unzipped) |
 
 ### Repository layout
 
