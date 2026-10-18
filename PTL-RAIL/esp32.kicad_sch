@@ -4129,6 +4129,12 @@
 		(uuid "9fd3dd5e-b2a1-426e-9909-5a355b87f64d")
 	)
 	(junction
+		(at 111.76 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a280e31c-b5b9-4893-b8ae-40a690daf526")
+	)
+	(junction
 		(at 35.56 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4219,10 +4225,6 @@
 	(no_connect
 		(at 100.33 123.19)
 		(uuid "84fb73b9-ea33-4dff-93c9-1ba283afbad4")
-	)
-	(no_connect
-		(at 100.33 135.89)
-		(uuid "880bd7cc-5284-4281-8769-760a5fb8b7b9")
 	)
 	(no_connect
 		(at 69.85 105.41)
@@ -4520,6 +4522,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 180.34) (xy 147.32 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258a2d70-1260-4337-930b-f95f0ed2aea4")
+	)
+	(wire
+		(pts
 			(xy 392.43 68.58) (xy 377.19 68.58)
 		)
 		(stroke
@@ -4597,6 +4609,16 @@
 			(type default)
 		)
 		(uuid "36b8505d-91e0-4208-8719-a1520f3f69cc")
+	)
+	(wire
+		(pts
+			(xy 167.64 180.34) (xy 167.64 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a515f79-a98f-4245-886d-70172707d60d")
 	)
 	(wire
 		(pts
@@ -4707,6 +4729,16 @@
 			(type default)
 		)
 		(uuid "47238529-0fb6-4922-a110-3b4a778e83ac")
+	)
+	(wire
+		(pts
+			(xy 137.16 180.34) (xy 137.16 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4729f9ca-3de6-439e-8b2f-77e1d6917db6")
 	)
 	(wire
 		(pts
@@ -5050,6 +5082,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 135.89) (xy 124.46 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af2275c-34a4-4b7b-8f63-d14a15201087")
+	)
+	(wire
+		(pts
 			(xy 35.56 102.87) (xy 35.56 97.79)
 		)
 		(stroke
@@ -5230,6 +5272,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 180.34) (xy 157.48 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8cd5642-75ff-42b5-9c6e-3a33266047cb")
+	)
+	(wire
+		(pts
 			(xy 322.58 88.9) (xy 322.58 86.36)
 		)
 		(stroke
@@ -5267,6 +5319,16 @@
 			(type default)
 		)
 		(uuid "bd4b98ca-3d96-4e9b-ad75-7d51406a08d3")
+	)
+	(wire
+		(pts
+			(xy 111.76 123.19) (xy 111.76 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd8e6384-fe68-4884-beb0-171ce5cb2511")
 	)
 	(wire
 		(pts
@@ -5380,6 +5442,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 135.89) (xy 114.3 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de21c537-4c24-4d7b-82e6-ca891ff6fe29")
+	)
+	(wire
+		(pts
 			(xy 355.6 78.74) (xy 358.14 78.74)
 		)
 		(stroke
@@ -5427,6 +5499,16 @@
 			(type default)
 		)
 		(uuid "e85021ba-53ae-4f0e-8023-a4b67116efab")
+	)
+	(wire
+		(pts
+			(xy 100.33 135.89) (xy 111.76 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8dfef01-2dc8-4505-8541-b622f6fe15ab")
 	)
 	(wire
 		(pts
@@ -5487,6 +5569,16 @@
 			(type default)
 		)
 		(uuid "fbd545d6-7640-485f-b5e2-d83d62faaaf9")
+	)
+	(wire
+		(pts
+			(xy 111.76 133.35) (xy 111.76 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc8fe131-58f1-44bc-8852-f09984b3566c")
 	)
 	(wire
 		(pts
@@ -5872,6 +5964,16 @@
 		)
 		(uuid "088c48ad-6860-4908-a821-9acc8b63aad8")
 	)
+	(label "TX_2"
+		(at 35.56 180.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0bd15a35-2a2e-485e-bdab-5fee13aef6a9")
+	)
 	(label "GPIO0"
 		(at 41.91 102.87 0)
 		(effects
@@ -5882,7 +5984,17 @@
 		)
 		(uuid "0c576389-c182-4e04-9596-7b03e606b3dc")
 	)
-	(label "TSOP_OUT_1_ESP"
+	(label "TX_3"
+		(at 45.72 180.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c83fc64-e971-4b24-98c0-3762f6c2eac9")
+	)
+	(label "TSOP_OUT_5_ESP"
 		(at 44.45 123.19 0)
 		(effects
 			(font
@@ -5942,6 +6054,16 @@
 		)
 		(uuid "30f96bfc-dde1-4032-91ec-79acec0db8c1")
 	)
+	(label "TSOP_OUT_2"
+		(at 86.36 180.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "399ca44a-5220-4370-8432-52ad0fb41c99")
+	)
 	(label "TSOP_OUT_2_ESP"
 		(at 330.2 68.58 180)
 		(effects
@@ -5981,6 +6103,26 @@
 			(justify left bottom)
 		)
 		(uuid "4455383e-e0b3-4af9-8267-7c39ce6580f6")
+	)
+	(label "TX_5"
+		(at 66.04 180.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d747f21-509a-41a5-9a55-3f00a6a6ea81")
+	)
+	(label "TSOP_OUT_1"
+		(at 76.2 180.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e627921-ccfb-40d2-b950-7f8cf3a94890")
 	)
 	(label "TSOP_OUT_5_ESP"
 		(at 330.2 76.2 180)
@@ -6102,6 +6244,16 @@
 		)
 		(uuid "7312f930-f30d-4e40-b6e0-f559a86b5d57")
 	)
+	(label "TSOP_OUT_3"
+		(at 96.52 180.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "74ae9581-b779-4d62-81c9-8e8f1f60532a")
+	)
 	(label "USB_D-"
 		(at 125.73 107.95 180)
 		(effects
@@ -6161,6 +6313,26 @@
 			(justify left bottom)
 		)
 		(uuid "8f05ac01-ef37-481c-bba9-152069752b8d")
+	)
+	(label "TSOP_OUT_5"
+		(at 116.84 180.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8fcc9140-ea46-4c8d-9c53-6f961a23a12b")
+	)
+	(label "TSOP_OUT_4"
+		(at 106.68 180.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91d22da1-7791-47e5-99ca-4765f4f9cd07")
 	)
 	(label "TSOP_OUT_2"
 		(at 377.19 76.2 0)
@@ -6232,6 +6404,16 @@
 		)
 		(uuid "d400726a-f8d7-4d83-94a2-3be906b03b06")
 	)
+	(label "TX_4"
+		(at 55.88 180.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d693fed5-30a3-4708-892e-6d7cbf1c35f7")
+	)
 	(label "TX_1"
 		(at 213.36 86.36 0)
 		(effects
@@ -6261,6 +6443,16 @@
 			(justify left bottom)
 		)
 		(uuid "e8287678-e139-47c6-b9fa-2e3cec10f89e")
+	)
+	(label "TX_1"
+		(at 25.4 180.34 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e86335d5-f589-4aea-8337-788133367def")
 	)
 	(label "TSOP_OUT_5"
 		(at 358.14 76.2 180)
@@ -6449,6 +6641,30 @@
 		(uuid "636f113b-2291-4c34-a983-85edbe85751a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 321.6509 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VIN"
+		(shape input)
+		(at 127 180.34 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7a4ba951-865c-4b24-bc5d-49e544c7d4a2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6938,6 +7154,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 167.64 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a6ea81c-090a-406e-b6d4-2e78310d2562")
+		(property "Reference" "TP19"
+			(at 167.64 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 172.72 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 167.64 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31ab23e8-f998-45cb-9f26-8209d67f06f6")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 243.84 130.81 0)
 		(unit 1)
@@ -7262,6 +7555,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 35.56 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1201bdcc-b67b-47e9-a9fc-8e566a1d071b")
+		(property "Reference" "TP6"
+			(at 35.56 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TX_2"
+			(at 35.56 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 40.64 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af2b469b-e446-4556-840e-ebcaf3f0bcc7")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 59.69 86.36 0)
 		(unit 1)
@@ -7509,6 +7879,161 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2a8040d3-7719-4c3b-8212-658c5143ae04")
+		(property "Reference" "TP14"
+			(at 116.84 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSOP_OUT_5"
+			(at 116.84 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 121.92 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 116.84 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e19cf0a3-b76f-4644-9021-2bb28c618680")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "304d5d8e-aee4-42fe-983f-174a6fb3b373")
+		(property "Reference" "#PWR066"
+			(at 128.27 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79710d99-11e3-4b7c-aaca-43c2e17ab3c4")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 243.84 106.68 0)
 		(unit 1)
@@ -7581,6 +8106,161 @@
 			(project "PTL-RAIL"
 				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3596941d-2a68-45e2-a592-53565da8d2a0")
+		(property "Reference" "#PWR065"
+			(at 167.64 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a330015-52a0-4904-8cfd-44adb9c27e85")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 45.72 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3b90671c-6636-48e0-b5a7-a29b2d587031")
+		(property "Reference" "TP7"
+			(at 45.72 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TX_3"
+			(at 45.72 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 50.8 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 45.72 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5a71b18-2d62-4639-be9b-d15434241a40")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -8150,6 +8830,83 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 127 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "56ec6a75-d93f-41f1-8303-6375e23d0f5d")
+		(property "Reference" "TP15"
+			(at 127 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VIN"
+			(at 127 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 132.08 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 127 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fec2e91e-53a0-48aa-ba43-acdb93e3b31e")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 172.72 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -8548,6 +9305,85 @@
 			(project "PTL-RAIL"
 				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 111.76 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61fee6fe-3424-41b5-9652-7185f12aece8")
+		(property "Reference" "R34"
+			(at 111.76 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 114.3 129.54 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 109.982 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6247c8cd-1344-485f-9baa-0b539c6229a9")
+		)
+		(pin "2"
+			(uuid "92bacdaa-d747-4f4c-b807-553b547c657d")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -9112,6 +9948,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 147.32 182.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a7281ee-3912-41c9-a798-8e8d8a086972")
+		(property "Reference" "#PWR063"
+			(at 147.32 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 147.32 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 147.32 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "102dc321-5fce-40c6-8a0d-8837d2ce8108")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x04")
 		(at 364.49 106.68 0)
 		(unit 1)
@@ -9276,6 +10189,160 @@
 			(project "PTL-RAIL"
 				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 25.4 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "847375da-a42a-4fde-8140-fe59d527ee6f")
+		(property "Reference" "TP5"
+			(at 25.4 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TX_1"
+			(at 25.4 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 30.48 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 25.4 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "287399c9-2b7a-4534-ab53-ea3e8946aa71")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 76.2 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "866d7cf5-9af2-413b-bf8e-568ced9fc3f6")
+		(property "Reference" "TP10"
+			(at 76.2 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSOP_OUT_1"
+			(at 76.2 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 81.28 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 76.2 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08a114fa-a530-40b6-8b90-9a15979becbd")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -9625,7 +10692,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x10")
-		(at 335.28 76.2 0)
+		(at 335.28 78.74 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9635,7 +10703,7 @@
 		(dnp no)
 		(uuid "9d73098d-097b-44e8-94c0-d45eba4e1926")
 		(property "Reference" "J4"
-			(at 337.82 76.1999 0)
+			(at 337.82 78.7401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9646,7 +10714,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x10"
-			(at 317.5 62.23 0)
+			(at 317.5 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9657,7 +10725,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x10_P3.50mm_Horizontal"
-			(at 335.28 76.2 0)
+			(at 335.28 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9668,7 +10736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 335.28 76.2 0)
+			(at 335.28 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9679,7 +10747,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 335.28 76.2 0)
+			(at 335.28 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9808,6 +10876,83 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 137.16 182.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7aa5395-30de-4bd6-94d7-c000c0d145de")
+		(property "Reference" "#PWR062"
+			(at 137.16 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 137.16 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 137.16 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b458bd7-f12a-4bf7-9c8d-192832a355a4")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 265.43 106.68 0)
 		(unit 1)
 		(body_style 1)
@@ -9879,6 +11024,84 @@
 			(project "PTL-RAIL"
 				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b14cc0c7-05ac-4911-af02-ca4f7bf63842")
+		(property "Reference" "#PWR064"
+			(at 157.48 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 187.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4215284-b363-4a14-94c7-c96d5490f07e")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -10152,7 +11375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1U"
+		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
 			(at 85.09 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -10312,6 +11535,161 @@
 			(project "PTL-RAIL"
 				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 111.76 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1e197b1-fa1c-48e0-984c-bf29e9637546")
+		(property "Reference" "#PWR036"
+			(at 111.76 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 111.76 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 111.76 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eab340a6-bdd8-4c2e-95be-e378004f9cd7")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 147.32 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8e7a7b6-91ac-469c-93e4-ef444d1e72ea")
+		(property "Reference" "TP17"
+			(at 147.32 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 147.32 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 152.4 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 147.32 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03c1ac8a-4ba4-48f4-be81-4c25c2fb1c09")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -10559,6 +11937,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 96.52 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d48069df-bf65-45be-a1a9-e4911cc0093e")
+		(property "Reference" "TP12"
+			(at 96.52 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSOP_OUT_3"
+			(at 96.52 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 101.6 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 96.52 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4fd8f14d-449e-4ba7-9e30-1482d2c2170a")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 162.56 99.06 0)
 		(mirror y)
@@ -10638,6 +12093,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 157.48 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dd517623-93f0-44ea-b671-c288323b5562")
+		(property "Reference" "TP18"
+			(at 157.48 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 162.56 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67281d09-93b7-4d3c-abf1-0af043bb5a12")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 59.69 90.17 0)
 		(unit 1)
@@ -10710,6 +12242,83 @@
 			(project "PTL-RAIL"
 				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 106.68 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb00add1-7def-47da-9b40-d9dc8d461ca2")
+		(property "Reference" "TP13"
+			(at 106.68 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TSOP_OUT_4"
+			(at 106.68 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 111.76 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 106.68 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "847af030-437b-45ff-9fea-d49dd54f5fa8")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -10954,6 +12563,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 137.16 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f03e0cba-d3e3-42cd-8515-abbe05ca7c75")
+		(property "Reference" "TP16"
+			(at 137.16 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 137.16 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 142.24 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 137.16 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a84755f-cdd5-41bc-9581-a6b79260a19d")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 162.56 78.74 0)
 		(mirror y)
@@ -11033,41 +12719,39 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x04")
-		(at 334.01 106.68 0)
+		(lib_id "Connector:TestPoint")
+		(at 86.36 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fadad0ec-dafe-405b-9865-61c45c178333")
-		(property "Reference" "J6"
-			(at 336.55 106.6799 0)
+		(uuid "f4c2eda0-259b-4509-b766-a908b295e177")
+		(property "Reference" "TP11"
+			(at 86.36 173.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x04"
-			(at 336.55 109.2199 0)
+		(property "Value" "TSOP_OUT_2"
+			(at 86.36 167.64 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x04_P3.50mm_Horizontal"
-			(at 334.01 106.68 0)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 91.44 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11078,7 +12762,163 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 334.01 106.68 0)
+			(at 91.44 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 86.36 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6834eee-55ce-4656-97d4-593fc11c0912")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 66.04 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f9748f68-ec7b-405c-9a20-e8155cd95383")
+		(property "Reference" "TP9"
+			(at 66.04 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TX_5"
+			(at 66.04 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 71.12 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 66.04 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf758f68-93bc-41be-8c6e-55595ccafffa")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 334.01 109.22 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fadad0ec-dafe-405b-9865-61c45c178333")
+		(property "Reference" "J6"
+			(at 336.55 109.2201 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 336.55 106.6801 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x04_P3.50mm_Horizontal"
+			(at 334.01 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 334.01 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11089,7 +12929,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 334.01 106.68 0)
+			(at 334.01 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11115,6 +12955,163 @@
 			(project "PTL-RAIL"
 				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 55.88 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb8c0977-0cfb-4d04-ab94-70222cddab5b")
+		(property "Reference" "TP8"
+			(at 55.88 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TX_4"
+			(at 55.88 167.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(at 60.96 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 55.88 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8791c2c-9bbc-4cab-9a4b-c5af3a5e3e5c")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 119.38 135.89 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcae8b7a-0b1b-4722-a569-17e23c6a7803")
+		(property "Reference" "SW4"
+			(at 119.38 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPST"
+			(at 119.38 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645Sx43SMTR92"
+			(at 119.38 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 119.38 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3a495366-5f58-46ad-9862-84bb2fdd34e3")
+		)
+		(pin "1"
+			(uuid "595e5c87-cbd2-4c40-83e7-fc09d339953f")
+		)
+		(instances
+			(project "PTL-RAIL"
+				(path "/f069ed8f-812c-4c88-b7da-e87f505ec63b/843560ab-5821-40bc-86d9-e72d8423fdb4"
+					(reference "SW4")
 					(unit 1)
 				)
 			)

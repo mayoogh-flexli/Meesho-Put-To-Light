@@ -1006,9 +1006,9 @@
 				(justify right)
 			)
 		)
-		(pin "{RX_NODE}" bidirectional
-			(at 177.8 139.7 0)
-			(uuid "6e0798d3-6af0-42bb-a317-886081ae41d4")
+		(pin "{TX_NODE}" bidirectional
+			(at 177.8 101.6 0)
+			(uuid "946c8967-9f1c-4cb6-8e7a-42d062f35936")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1016,9 +1016,9 @@
 				(justify right)
 			)
 		)
-		(pin "{TX_NODE}" bidirectional
-			(at 177.8 101.6 0)
-			(uuid "946c8967-9f1c-4cb6-8e7a-42d062f35936")
+		(pin "{TSOP_OUT}" bidirectional
+			(at 177.8 139.7 0)
+			(uuid "fe76319e-c8ef-45b3-af92-e57d2def6753")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1194,9 +1194,9 @@
 				(justify left top)
 			)
 		)
-		(pin "{RX_NODE}" bidirectional
+		(pin "{TSOP_OUT}" bidirectional
 			(at 190.5 139.7 180)
-			(uuid "a4260228-83ec-4406-9295-5cec86228dcb")
+			(uuid "81f99efc-8551-437a-9e63-d5626a647317")
 			(effects
 				(font
 					(size 1.27 1.27)

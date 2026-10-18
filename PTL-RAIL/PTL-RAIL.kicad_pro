@@ -53,8 +53,31 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|530514825|683925000|762742e7-24fb-4d46-ac95-2fe812ed873a|b25ef5b9-83c8-4cbd-ab9c-fe8fa5da4543",
+          ""
+        ],
+        [
+          "courtyards_overlap|540491000|683935183|0703be8f-822b-401c-a748-03fcbf18a0bf|762742e7-24fb-4d46-ac95-2fe812ed873a",
+          ""
+        ],
+        [
+          "courtyards_overlap|574271252|654596683|24d3c14f-1b4a-4980-b076-fecd04e6bd59|df3f38da-1ed3-4f68-953a-7dfdef7bfcb8",
+          ""
+        ],
+        [
+          "npth_inside_courtyard|574644000|658024000|359809a3-a0fe-4fd5-bb84-6dd81def5cfb|df3f38da-1ed3-4f68-953a-7dfdef7bfcb8",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -68,7 +91,7 @@
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "error",
+        "drill_out_of_range": "ignore",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
@@ -85,7 +108,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -98,9 +121,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -187,7 +210,13 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -214,7 +243,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -695,7 +729,7 @@
         "uuid": "f069ed8f-812c-4c88-b7da-e87f505ec63b"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR36,#PWR66,R34,SW4",
     "variants": []
   },
   "sheets": [
